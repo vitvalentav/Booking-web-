@@ -1,0 +1,159 @@
+:root {
+    --main-background: #FFFFFF;
+    --secondary-color: #D9D9D9;
+    --accent-color: #202053; 
+}
+
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 75px;
+    border-bottom: var(--secondary-color) solid 3px;
+    img {
+        height: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    height: 120px;
+    margin: 10px 0px;
+    color: rgba(0, 0, 0, 0.5);
+    overflow-x: scroll;
+    overflow: hidden;
+    gap:30px;
+    a {
+        margin: 0px auto;
+        padding: 10px;
+        width: 100px;
+        height: 80%;
+        opacity: 0.5;
+    }
+
+    a:hover {
+        background-color: var(--secondary-color);
+    }
+
+    img {
+        height: 80%;
+    }
+    p {
+        font-size: small;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;   
+    }
+}
+
+footer {
+    height: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: var(--secondary-color);
+
+    p {
+        font-weight: 700;
+        margin: 0px auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+#search {
+    width: 300px;
+    height: 40px;
+    border: black solid 1px;
+    border-radius: 20px;
+
+    margin:0px auto;
+    align-self: center;
+
+    div {
+        max-width: 40%;
+    }
+    img {
+        height: 35px;   
+        margin-left: auto;
+        margin-right: 10%;
+    }
+}
+
+
+
+#search-text {
+    height: 100%;   
+}
+.sect { 
+    width: 50%;
+    height: 90%;
+    align-self: center;
+    padding: 0px 47%;
+    padding-top: 5px;
+}
+
+.middle-line {
+    border-left: black solid 1px;
+}
+
+.item {
+    max-width: 25%;
+    min-width: 350px;
+    margin: 0px auto;
+    font-size: larger;
+    img {
+        max-width: 100%;
+    }
+}
+
+#user {
+    background-color: var(--accent-color);
+    width: 110px;
+    height: 40px;
+    padding: 5px 5px;
+
+    margin-left: calc(auto + 5%);
+    margin-right: 5%;
+    border-radius: 25px;
+    align-self: center;
+}
+
+#user-icon,#hamburger {
+    height: 40px;
+    margin-left: 10px;
+}
+
+#listings {
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 50px;
+}
+
+#zob {
+    margin: 50px 45%;
+    width: 150px;
+    height: 60px;
+}
+
+#zobrazit {
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    color:var(--main-background);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+}
+
+#brand {
+    color: rgba(0, 0, 0, 0.5);
+}
