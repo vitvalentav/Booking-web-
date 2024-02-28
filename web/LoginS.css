@@ -27,8 +27,7 @@ div{
 
     width: 230px;
     height: 100px;
-    margin-left: auto;
-    background-image: url(Temporary.png);
+    margin-left: auto;  
 }
 
 input {
@@ -39,6 +38,7 @@ input {
     background-color: #F1F3F6;
 }
 form{
+    height: 100vh;
     margin-top: 50px;
     display: flex;
     gap:20px;
