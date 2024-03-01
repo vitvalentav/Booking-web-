@@ -91,7 +91,12 @@ footer {
     }
 }
 
-
+#phone-hamburger {
+    display: none;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+}
 
 #search-text {
     height: 100%;   
@@ -167,12 +172,12 @@ footer {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: "Poppins", sans-serif;
     }
     
     .body-login{
-    
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,6 +281,10 @@ footer {
         border-radius: 5px;
         color: #202053;
     }
+
+    #body-main {
+        box-sizing: unset;
+    }
     
     
     @media screen and (max-width:1024px)  {
@@ -293,6 +302,10 @@ footer {
         .icon{
             display:none;
         }
+
+        #search-text {
+            display: none;
+        }
     }
     
     /*
@@ -308,4 +321,19 @@ footer {
         min-height: 100vh;
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        }
+
+
+        @media screen and (max-width:600px) {
+            #search {
+                display: none;
+            }
+
+            #phone-hamburger {
+                display: block;
+            }
+
+            #user {
+                display: none;
+            }
         }
